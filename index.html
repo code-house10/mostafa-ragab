@@ -1,0 +1,497 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>شركة التوحيد لنقل الاثاث</title>
+<meta name="generator" content="WYSIWYG Web Builder 12 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="cupertino/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hend" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Haettenschweiler" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arial:900" rel="stylesheet">
+<link href="موقع_الفيروز.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="affix.min.js"></script>
+<script src="scrollspy.min.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.carousel.effects.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="wwb12.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#wb_CssMenu1").affix({offset:{top: $("#wb_CssMenu1").offset().top}});
+   var Carousel1Opts =
+   {
+      delay: 5000,
+      duration: 1000,
+      easing: 'easeInQuad',
+      mode: 'puff',
+      direction: '',
+      scalemode: 3,
+      pagination: false,
+      start: 0
+   };
+   $("#Carousel1").on('activate', function(event, index)
+   {
+      switch(index)
+      {
+         case 0:
+            ShowObjectWithEffect('wb_title1', 1, 'dropup', 1000);
+            break;
+         case 1:
+            ShowObject('wb_title1', 0);
+            break;
+      }
+   });
+   $("#Carousel1").carouseleffects(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carouseleffects('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carouseleffects('next');
+   });
+   $("a[href*='#Bookmark1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark1').offset().top }, 500, 'linear');
+   });
+   function Bookmark1Scroll()
+   {
+      var $obj = $("#wb_Bookmark1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_Text2', 1, 'dropdown', 1000, 'easeInOutBack');
+      }
+   }
+   Bookmark1Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark1Scroll();
+   });
+   $("a[href*='#laygride2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_laygride2').offset().top }, 600, 'linear');
+   });
+   function laygride2Scroll()
+   {
+      var $obj = $("#wb_laygride2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_LayoutGrid2', 1, 'dropdown', 1000, 'easeOutBack');
+      }
+   }
+   laygride2Scroll();
+   $(window).scroll(function(event)
+   {
+      laygride2Scroll();
+   });
+   $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
+   $("a[rel^='PhotoGallery1']").fancybox({});
+   $("a[href*='#Bookmark3']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark3').offset().top }, 600, 'linear');
+   });
+   function Bookmark3Scroll()
+   {
+      var $obj = $("#wb_Bookmark3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_PhotoGallery1', 1, 'dropdown', 1000, 'easeOutBack');
+      }
+   }
+   Bookmark3Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark3Scroll();
+   });
+   $("a[href*='#Bookmark4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark4').offset().top }, 600, 'linear');
+   });
+   function Bookmark4Scroll()
+   {
+      var $obj = $("#wb_Bookmark4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_Text6', 1, 'dropdown', 1000, 'easeInOutBack');
+      }
+   }
+   Bookmark4Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark4Scroll();
+   });
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'linear');
+   });
+   function contactScroll()
+   {
+      var $obj = $("#wb_contact");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_LayoutGrid5', 1, 'dropdown', 1000, 'easeInOutBack');
+         ShowObjectWithEffect('wb_JavaScript1', 1, 'dropright', 1600);
+      }
+   }
+   contactScroll();
+   $(window).scroll(function(event)
+   {
+      contactScroll();
+   });
+   $("a[href*='#خدمات_الشركة']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_خدمات_الشركة').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#عن_الشركة']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_عن_الشركة').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#اتصل_بنا']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_اتصل_بنا').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#الرئيسية']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_الرئيسية').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#skills']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_skills').offset().top }, 600, 'linear');
+   });
+   var progressbar_uidesignOptions =
+   {
+      value: 99
+   };
+   $("#progressbar_uidesign").progressbar(progressbar_uidesignOptions);
+   var progressbar_jqueryOptions =
+   {
+      value: 85
+   };
+   $("#progressbar_jquery").progressbar(progressbar_jqueryOptions);
+   var progressbar_phpOptions =
+   {
+      value: 65
+   };
+   $("#progressbar_php").progressbar(progressbar_phpOptions);
+   var progressbar_htmlOptions =
+   {
+      value: 100
+   };
+   $("#progressbar_html").progressbar(progressbar_htmlOptions);
+   $('#wb_LayoutGrid5').parallax();
+});
+</script>
+<link href="https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900" rel="stylesheet">
+
+<script>
+$(document).ready(function()
+{
+   var $progressbars = $('.ui-progressbar');
+   
+   $progressbars.each(function() 
+   {
+     var $obj = $(this);
+     $obj.data('value', $obj.progressbar('option', 'value'));
+     $obj.data('done', false);
+     $obj.progressbar('option', 'value', 0);
+    
+     $obj.css('position', 'relative');
+     $obj.append('<div class="progress-label">0%</div>');
+   });
+   $(window).bind('scroll', function() 
+   {
+      $progressbars.each(function() 
+      {
+         var $obj = $(this);
+         if (!$obj.data('done') && $(window).scrollTop() + $(window).height() >= $obj.offset().top) 
+         {
+            $obj.data('done', true);
+            $obj.animate({scroll: 1}, 
+            { 
+               duration: 3000, 
+               step: function(now) 
+               {
+                  var $obj = $(this);
+                  var val = Math.round($obj.data('value') * now);
+                  $obj.progressbar('option', 'value', val);
+                  $obj.find('.progress-label').text(val + '%').css('color', (val > 50) ? "#FFFFFF" : "#265A88");
+               }
+            });
+         }
+      });
+   }).triggerHandler('scroll');
+});
+</script>
+</head>
+<body data-spy="scroll">
+<div id="container">
+
+
+<div id="wb_Bookmark1">
+<a id="Bookmark1">&nbsp;</a>
+</div>
+<div id="wb_laygride2">
+<a id="laygride2">&nbsp;</a>
+</div>
+<div id="wb_Bookmark3">
+<a id="Bookmark3">&nbsp;</a>
+</div>
+<div id="wb_Bookmark4">
+<a id="Bookmark4">&nbsp;</a>
+</div>
+<div id="wb_contact">
+<a id="contact">&nbsp;</a>
+</div>
+<div id="wb_خدمات_الشركة">
+<a id="خدمات_الشركة">&nbsp;</a>
+</div>
+<div id="wb_عن_الشركة">
+<a id="عن_الشركة">&nbsp;</a>
+</div>
+<div id="wb_اتصل_بنا">
+<a id="اتصل_بنا">&nbsp;</a>
+</div>
+<div id="wb_الرئيسية">
+<a id="الرئيسية">&nbsp;</a>
+</div>
+</div>
+<div id="PageHeader">
+   <div id="wb_CssMenu1">
+      <ul>
+         <li class="firstmain"><a href="#اتصل_بنا" target="_self">&#1575;&#1578;&#1589;&#1604;&nbsp;&#1575;&#1604;&#1575;&#1606;</a>
+         </li>
+         <li><a href="#خدمات_الشركة" target="_self">&#1582;&#1583;&#1605;&#1575;&#1578;&nbsp;&#1575;&#1604;&#1588;&#1585;&#1603;&#1577;</a>
+         </li>
+         <li><a href="#عن_الشركة" target="_self">&#1593;&#1606;&nbsp;&#1575;&#1604;&#1588;&#1585;&#1603;&#1577;</a>
+         </li>
+         <li><a href="#الرئيسية" target="_self">&#1575;&#1604;&#1585;&#1574;&#1610;&#1587;&#1610;&#1577;</a>
+         </li>
+      </ul>
+   </div>
+   <div id="wb_Text1">
+      <span style="color:#FFA500;"><strong> </strong></span><span style="color:#FFA500;"><strong>اتصل بنا على&nbsp; </strong></span><span style="color:#FFA500;"><strong><br>011</strong></span><span style="color:#FFFFFF;"><strong>00</strong></span><span style="color:#FFA500;"><strong>66</strong></span><span style="color:#FFFFFF;"><strong>3081</strong></span><span style="color:#FFA500;"><strong> - 010</strong></span><span style="color:#FFFFFF;"><strong>15</strong></span><span style="color:#FFA500;"><strong>63</strong></span><span style="color:#FFFFFF;"><strong>77</strong></span><span style="color:#FFA500;"><strong>23<br></strong></span></div>
+</div>
+<div id="wb_Carousel1">
+<div id="Carousel1">
+<div class="frame frame-1">
+<div class="innerframe">
+<div id="wb_title1">
+<div id="title1"><div id="title1_text"><span style="color:#000000;font-family:Hend;font-size:35px;"><strong>شركة التوحيد لنقل وتغليف الاثاث</strong></span></div></div></div>
+</div>
+</div>
+<div class="frame frame-2" style ="display:none">
+<div class="innerframe">
+</div>
+</div>
+<div class="frame frame-3" style ="display:none">
+<div class="innerframe">
+</div>
+</div>
+</div>
+<div id="Carousel1_back"><a style="cursor:pointer"><img alt="Back" style="border-width:0" src="images/mattdusk_arrow_left.png"></a></div>
+<div id="Carousel1_next"><a style="cursor:pointer"><img alt="Next" style="border-width:0" src="images/mattdusk_arrow_right.png"></a></div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text2">
+<span style="color:#000000;"><strong>شركة التوحيد لنقل وتغليف الاثاث</strong></span><span style="color:#000000;"><strong><br></strong></span><span style="color:#000000;"><strong>مرحبا بكم فى موقع شركة التوحيد لنقل و تخزين الاثاث اذا كنت تبحث عن الدقه و الامان فى نقل اثاث منزلك فنحن نقدم لك العديد من الخدمات لنقل و تغليف الاثاث و لدينا احدث الوسائل لنقل الاثاث و عماله مدربه ذو خبره و كفاءه عاليه فى تغليف و فك و تركيب الاثاث و نسعى دايما لتطوير خدمتنا لارضاء العميل</strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_FontAwesomeIcon3">
+<div id="FontAwesomeIcon3"><i class="fa fa-archive">&nbsp;</i></div>
+</div>
+<div id="wb_Text5">
+<span style="color:#000000;"><br><strong>عمالة مدربة لنقل الاثاث بعناية شديدة ..ويوجد <br>اوناش هيدروليكية مخصصة لرفع الاثاث فى حالة الادوار المرتفعة </strong></span><span style="color:#000000;"><strong><br><br><br></strong></span>
+</div>
+
+</div>
+<div class="col-2">
+<div id="wb_FontAwesomeIcon2">
+<div id="FontAwesomeIcon2"><i class="fa fa-inbox">&nbsp;</i></div>
+</div>
+<div id="wb_Text4">
+<span style="color:#000000;"><br><strong>يوجد خدمات تغليف الاطقم الصينى والاشياء الحساسة والقابلة للكسر والتحف والانتيكات بخامات البابلز والاسترتش والفوم وكراتين بأحجام مختلفة </strong></span><span style="color:#000000;"><strong><br><br><br></strong></span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_FontAwesomeIcon1">
+<div id="FontAwesomeIcon1"><i class="fa fa-truck">&nbsp;</i></div>
+</div>
+<div id="wb_Text3">
+<span style="color:#000000;"><br><strong>سيارات نقل الاثاث المجهزة خصيصا من الداخل للحفاظ على الاثاث ولحماية المنقولات <br>من الاتربة والامطار فى الشتاء </strong></span><span style="color:#000000;"><strong><br></strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_PhotoGallery1">
+<div id="PhotoGallery1">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/dishes.jpg" data-rel="PhotoGallery1"><img alt="" src="images/dishes.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/woodworker.jpg" data-rel="PhotoGallery1"><img alt="" src="images/woodworker.jpg"></a>
+      </div>
+      <div class="clearfix visible-col1"></div>
+      <div class="thumbnail">
+         <a href="images/winsh.jpg" data-rel="PhotoGallery1"><img alt="" src="images/winsh.jpg"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text6">
+<span style="color:#000000;"><strong>تقدم شركه التوحيد المتخصصه فى مجال نقل الاثاث المنزلى والشركات والمكتبى ونقل الفلل والقصور وجميع المحتويات يعنى نستلم شقتك القديمه ونسلمك شقتك الجديده</strong></span><span style="color:#000000;"><strong> <br></strong></span><span style="color:#000000;"><strong>برنامج الشركه</strong></span><span style="color:#000000;"><strong> <br></strong></span><span style="color:#000000;"><strong>نقوم بفك وتركيب جميع محتويات الشقه واعادة تركيبه مره اخرى</strong></span><span style="color:#000000;"><strong><br></strong></span><span style="color:#000000;"><strong>نقوم بنقل العفش بعربيات مجهزه مخصصه لنقل العفش باعلى التقنيات</strong></span><span style="color:#000000;"><strong> <br></strong></span><span style="color:#000000;"><strong>كما يوجد لدينا التغليف بجميع انواعه سوا تغليف نقل اثاث/ شحن داخل وخارج القاهرة/ وتخزين</strong></span><span style="color:#000000;"><strong> <br></strong></span><span style="color:#000000;"><strong>يوجد لدينا اوناش هيدروليك واوناش عاديه</strong></span><span style="color:#000000;"><strong> <br></strong></span><span style="color:#000000;"><strong>نقوم بنقل الرخام والزجاج والتحف والانتيكات الثمينه بدون خدش واحد</strong></span><span style="color:#000000;"><strong> <br></strong></span><span style="color:#000000;"><strong>نقوم بفك وتركيب التكيفات والنجف والسخانات</strong></span><span style="color:#000000;"><strong><br></strong></span><span style="color:#000000;"><strong>يوجد لدينا خدمة لم جميع محتويات الشقه واعادة تركيبها مره اخرى</strong></span><span style="color:#000000;"><strong> <br></strong></span><span style="color:#000000;"><strong>عميلنا العزيز كثيرا منا يعتقد ان عملية نقل العفش من اصعب الوسائل التى تقاب كثيرا منا ولكن نحن نسهل هذه العملية بتقديم الخدمة الشاملة</strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_skills">
+<div id="skills">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text9">
+<span style="color:#FFA500;font-family:Cairo;font-size:32px;"><strong>خدمات تم تقديمها بواسطة شركتنا</strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="col-1">
+<label for="" id="Label5">نقل اثاث للمنازل والشركات</label>
+<div id="progressbar_html">
+</div>
+<label for="" id="Label6">تغليف اثاث</label>
+<div id="progressbar_uidesign">
+</div>
+<label for="" id="Label7">رفع بالونش الهيدروليكى</label>
+<div id="progressbar_jquery">
+</div>
+<label for="" id="Label8">تخزين عفش</label>
+<div id="progressbar_php">
+</div>
+
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text7">
+<span style="color:#FFFFFF;font-family:Cairo;font-size:24px;"><strong>اتصل بنا على <br></strong></span><span style="color:#FFA500;font-family:Cairo;font-size:19px;"><strong>01100663081 - 01015637723</strong></span><span style="color:#FFA500;font-family:Cairo;font-size:21px;"><strong><br></strong></span>
+</div>
+<div id="wb_JavaScript1">
+<div id="GoogleMaps"></div>
+<script type='text/javascript' src='https://maps.google.com/maps/api/js?key=AIzaSyBXKbbpz62WpeYW1ab2tpiGvIjLO6PIdlc'></script>
+<script>
+var map;
+var marker;
+var geocoder;
+function GoogleMapInit(id, latitude, longitude, address) 
+{    
+   var latlng = new google.maps.LatLng(latitude, longitude);
+   var latlngMarker = new google.maps.LatLng(latitude, longitude);
+   var mapOptions = 
+   {        
+      center: latlng,        
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: true,        
+      scrollwheel: true,
+      streetViewControl: true,        
+      zoom: 14,
+      zoomControl: true,        
+      zoomControlOptions: { style: google.maps.ZoomControlStyle.SMALL }
+   }
+   element = document.getElementById(id);
+   map = new google.maps.Map(element, mapOptions);   
+   marker = new google.maps.Marker({ draggable:true, map: map, position: latlngMarker});   
+   geocoder = new google.maps.Geocoder();
+   geocoder.geocode({'address': address}, function(results, status) 
+   {
+      if (status == google.maps.GeocoderStatus.OK) 
+      {
+         map.setCenter(results[0].geometry.location);
+         var marker = new google.maps.Marker(
+         {
+            map: map, 
+            position: results[0].geometry.location
+         });
+      } 
+      else 
+      {
+        //    alert("Geocode was not successful: " + status);
+      }
+   });
+}
+GoogleMapInit('GoogleMaps', 40.7127837, -74.00594130000002, 'زهراء المعادى+القاهرة');
+</script>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="PageFooter1">
+<div id="PageFooter1_Container">
+<div id="wb_Text8">
+<span style="color:#FFFFFF;"><strong>جميع الحقوق محفوظة لشركة التوحيد لنقل الاثاث</strong></span></div>
+</div>
+</div>
+<script>
+   $("#PageHeader").affix({offset:{top: $("#PageHeader").offset().top}});
+</script></body>
+</html>

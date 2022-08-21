@@ -1,0 +1,3341 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#PageHeader
+{
+   background-color: transparent;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#wb_CssMenu1
+{
+   border: 0px #C0C0C0 solid;
+   background-color: transparent;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 0px 0px 0px;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   font-family: Hend;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   height: 40px;
+   line-height: 40px;
+   padding: 0px 5px 0px 18px;
+   vertical-align: middle;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
+{
+   color: #FFA500;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #222222 solid;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#wb_CssMenu1.affix
+{
+   top: 0 !important;
+   position: fixed !important;
+   left: 50% !important;
+   margin-left: 191px;
+}
+#wb_Carousel1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Carousel1
+{
+   display: block;
+   float: left;
+   font-size: 0;
+   top: 0 !important;
+}
+#Carousel1 .frame
+{
+   width: 970px;
+   display: inline-block;
+   overflow: hidden;
+   height: 518px;
+}
+#Carousel1 .innerframe
+{
+   display: inline-block;
+   height: 0;
+   left: 0;
+   margin-left: 0;
+   position: absolute;
+   top: 0;
+   width: 970px;
+}
+#Carousel1 .frame-1
+{
+   background-color: transparent;
+   background-image: url(images/fmoving.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+}
+#Carousel1 .frame-2
+{
+   background-color: transparent;
+   background-image: url(images/photo3.jpg);
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-attachment: scroll;
+   background-size: cover;
+}
+#Carousel1 .frame-3
+{
+   background-color: transparent;
+   background-image: url(images/winsh.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+}
+#title1
+{
+   width: 551px;
+   height: 73px;
+   background-color: #F0E319;
+   background-image: none;
+   border: 0px #245580 solid;
+   border-radius: 10px;
+}
+#title1_text
+{
+   position: absolute;
+   left: 5px;
+   top: 15px;
+   width: 539px;
+   height: 51px;
+   overflow: hidden;
+   text-align: center;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: none;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid2
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 15px 15px 40px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   display: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 30px;
+}
+#wb_Text2 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_FontAwesomeIcon1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon1
+{
+   height: 86px;
+   width: 153px;
+}
+#FontAwesomeIcon1 i
+{
+   color: #23448C;
+   display: inline-block;
+   font-size: 86px;
+   line-height: 86px;
+   vertical-align: middle;
+   width: 85px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #23448C;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 29px;
+}
+#wb_Text3 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_FontAwesomeIcon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon2:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon2
+{
+   height: 86px;
+   width: 153px;
+}
+#FontAwesomeIcon2 i
+{
+   color: #23448C;
+   display: inline-block;
+   font-size: 86px;
+   line-height: 86px;
+   vertical-align: middle;
+   width: 73px;
+}
+#wb_FontAwesomeIcon2:hover i
+{
+   color: #337AB7;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 29px;
+}
+#wb_Text4 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_FontAwesomeIcon3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon3:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon3
+{
+   height: 86px;
+   width: 153px;
+}
+#FontAwesomeIcon3 i
+{
+   color: #23448C;
+   display: inline-block;
+   font-size: 86px;
+   line-height: 86px;
+   vertical-align: middle;
+   width: 85px;
+}
+#wb_FontAwesomeIcon3:hover i
+{
+   color: #337AB7;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 29px;
+}
+#wb_Text5 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid3
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#PhotoGallery1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery1 .thumbnails
+{
+   margin: 0;
+   font-size: 0;
+}
+#PhotoGallery1 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   padding: 3px 3px 3px 3px;
+   width: 33.33333333%;
+   text-align: center;
+   vertical-align: middle;
+}
+#PhotoGallery1 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery1 .clearfix:before,
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:before,
+#PhotoGallery1 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery1 .visible-col3
+{
+   display: block;
+}
+#PhotoGallery1 .visible-col1
+{
+   display: none;
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid4
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 25px 15px 25px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid4:before,
+#LayoutGrid4:after,
+#LayoutGrid4 .row:before,
+#LayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid4:after,
+#LayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid4 > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   display: none;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text6
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 29px;
+}
+#wb_Text6 div
+{
+   text-align: right;
+   white-space: nowrap;
+}
+#wb_Text1 
+{
+   background-color: #23448C;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 7px 0px 0px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   font-family: "Arial";
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 36px;
+}
+#wb_Text1 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 75px 0px 50px 0px;
+   text-align: center;
+}
+#wb_Text7 div
+{
+   text-align: center;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 16px;
+}
+#wb_Text8 div
+{
+   text-align: center;
+}
+#wb_skills
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+}
+#skills
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 25px 15px 25px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#skills .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#skills > .row > .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#skills > .row > .col-1
+{
+   float: left;
+}
+#skills > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#skills:before,
+#skills:after,
+#skills .row:before,
+#skills .row:after
+{
+   display: table;
+   content: " ";
+}
+#skills:after,
+#skills .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#skills > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 15px 0px 15px 0px;
+   text-align: center;
+}
+#wb_Text9 div
+{
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+}
+#LayoutGrid6
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 0px 0px 25px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid6 > .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid6 > .col-1
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#LayoutGrid6 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid6 > .col-1
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#progressbar_uidesign
+{
+   margin: 0px 0px 10px 0px;
+}
+#progressbar_uidesign, #progressbar_uidesign .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 0px;
+   -moz-border-bottom-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   -webkit-border-top-right-radius: 0px;
+   -moz-border-top-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#progressbar_uidesign, #progressbar_uidesign .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 0px;
+   -moz-border-bottom-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   -webkit-border-top-left-radius: 0px;
+   -moz-border-top-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#progressbar_uidesign,ui-widget-content
+{
+   border-color: #383838;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#progressbar_uidesign .ui-widget-header
+{
+   border-color: #265A88;
+   background-color: #265A88;
+   background-image: none;
+}
+#progressbar_jquery
+{
+   margin: 0px 0px 10px 0px;
+}
+#progressbar_jquery, #progressbar_jquery .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 0px;
+   -moz-border-bottom-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   -webkit-border-top-right-radius: 0px;
+   -moz-border-top-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#progressbar_jquery, #progressbar_jquery .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 0px;
+   -moz-border-bottom-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   -webkit-border-top-left-radius: 0px;
+   -moz-border-top-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#progressbar_jquery,ui-widget-content
+{
+   border-color: #383838;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#progressbar_jquery .ui-widget-header
+{
+   border-color: #265A88;
+   background-color: #265A88;
+   background-image: none;
+}
+#progressbar_php
+{
+   margin: 0px 0px 10px 0px;
+}
+#progressbar_php, #progressbar_php .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 0px;
+   -moz-border-bottom-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   -webkit-border-top-right-radius: 0px;
+   -moz-border-top-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#progressbar_php, #progressbar_php .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 0px;
+   -moz-border-bottom-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   -webkit-border-top-left-radius: 0px;
+   -moz-border-top-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#progressbar_php,ui-widget-content
+{
+   border-color: #383838;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#progressbar_php .ui-widget-header
+{
+   border-color: #265A88;
+   background-color: #265A88;
+   background-image: none;
+}
+#progressbar_html
+{
+   margin: 0px 0px 10px 0px;
+}
+#progressbar_html, #progressbar_html .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 0px;
+   -moz-border-bottom-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   -webkit-border-top-right-radius: 0px;
+   -moz-border-top-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#progressbar_html, #progressbar_html .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 0px;
+   -moz-border-bottom-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   -webkit-border-top-left-radius: 0px;
+   -moz-border-top-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#progressbar_html,ui-widget-content
+{
+   border-color: #FFA500;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#progressbar_html .ui-widget-header
+{
+   border-color: #265A88;
+   background-color: #265A88;
+   background-image: none;
+}
+#Label5
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Hend;
+   font-weight: bold;
+   font-size: 13px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   vertical-align: top;
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url(images/books_bk.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid5
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 40px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid5 .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid5
+{
+   width: 970px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid5
+{
+   width: 100%;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#Label6
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Hend;
+   font-weight: bold;
+   font-size: 13px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   vertical-align: top;
+}
+#Label7
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Hend;
+   font-weight: bold;
+   font-size: 13px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   vertical-align: top;
+}
+#Label8
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Hend;
+   font-weight: bold;
+   font-size: 13px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   vertical-align: top;
+}
+#PageFooter1
+{
+   background-color: #404040;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#progressbar_jquery
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   z-index: 19;
+}
+#wb_FontAwesomeIcon1
+{
+   display: inline-block;
+   width: 153px;
+   height: 86px;
+   text-align: center;
+   z-index: 9;
+}
+#wb_الرئيسية
+{
+   position: absolute;
+   left: 990px;
+   top: 22px;
+   width: 39px;
+   height: 18px;
+   z-index: 36;
+}
+#laygride2
+{
+   visibility: hidden;
+}
+#GoogleMaps
+{
+   width: 100%;
+   height: 100%;
+}
+#wb_FontAwesomeIcon2
+{
+   display: inline-block;
+   width: 153px;
+   height: 86px;
+   text-align: center;
+   z-index: 7;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 0%;
+   top: 0%;
+   width: 42%;
+   height: 109%;
+   text-align: center;
+   z-index: 1;
+}
+#wb_اتصل_بنا
+{
+   position: absolute;
+   left: 989px;
+   top: 1573px;
+   width: 39px;
+   height: 18px;
+   z-index: 35;
+}
+#خدمات_الشركة
+{
+   visibility: hidden;
+}
+#wb_FontAwesomeIcon3
+{
+   display: inline-block;
+   width: 153px;
+   height: 86px;
+   text-align: center;
+   z-index: 4;
+}
+#Carousel1_next
+{
+   position: absolute;
+   right: 1px;
+   top: 47%;
+   width: 30px;
+   height: 30px;
+   z-index: 999;
+}
+#wb_عن_الشركة
+{
+   position: absolute;
+   left: 989px;
+   top: 1194px;
+   width: 39px;
+   height: 18px;
+   z-index: 34;
+}
+#Label5
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   line-height: 28px;
+   z-index: 14;
+}
+#wb_Bookmark1
+{
+   position: absolute;
+   left: 998px;
+   top: 593px;
+   width: 21px;
+   height: 18px;
+   z-index: 28;
+}
+#Label6
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   line-height: 28px;
+   z-index: 16;
+}
+#الرئيسية
+{
+   visibility: hidden;
+}
+#Label7
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   line-height: 28px;
+   z-index: 18;
+}
+#Carousel1_back
+{
+   position: absolute;
+   left: 1px;
+   top: 47%;
+   width: 30px;
+   height: 30px;
+   z-index: 999;
+}
+#اتصل_بنا
+{
+   visibility: hidden;
+}
+#wb_Bookmark3
+{
+   position: absolute;
+   left: 998px;
+   top: 1021px;
+   width: 21px;
+   height: 18px;
+   z-index: 30;
+}
+#progressbar_php
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   z-index: 21;
+}
+#Label8
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   line-height: 28px;
+   z-index: 20;
+}
+#PageHeader
+{
+   display: block;
+   position: relative;
+   overflow: hidden;
+   text-align: left;
+   width: 100%;
+   height: 82px;
+   z-index: 7777;
+}
+#wb_Bookmark4
+{
+   position: absolute;
+   left: 1001px;
+   top: 1286px;
+   width: 21px;
+   height: 18px;
+   z-index: 31;
+}
+#عن_الشركة
+{
+   visibility: hidden;
+}
+#wb_Text8
+{
+   position: absolute;
+   left: 304px;
+   top: 42px;
+   width: 362px;
+   height: 19px;
+   text-align: center;
+   z-index: 25;
+}
+#wb_Carousel1
+{
+   position: absolute;
+   left: 0px;
+   top: 82px;
+   width: 970px;
+   height: 518px;
+   z-index: 37;
+   overflow: hidden;
+   position: relative;
+}
+#wb_title1
+{
+   position: absolute;
+   left: 210px;
+   top: 238px;
+   width: 551px;
+   height: 73px;
+   visibility: hidden;
+   z-index: 2;
+}
+#Bookmark1
+{
+   visibility: hidden;
+}
+#progressbar_uidesign
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   z-index: 17;
+}
+#wb_PhotoGallery1
+{
+   display: none;
+   width: 100%;
+   z-index: 11;
+}
+#Bookmark3
+{
+   visibility: hidden;
+}
+#wb_CssMenu1
+{
+   position: absolute;
+   left: 69%;
+   top: 26%;
+   width: 29%;
+   height: 48%;
+   text-align: right;
+   z-index: 0;
+}
+#Bookmark4
+{
+   visibility: hidden;
+}
+#wb_laygride2
+{
+   position: absolute;
+   left: 998px;
+   top: 812px;
+   width: 21px;
+   height: 18px;
+   z-index: 29;
+}
+#PageFooter1
+{
+   position: absolute;
+   text-align: center;
+   left: 0px;
+   top: 2336px;
+   width: 100%;
+   height: 130px;
+   z-index: 38;
+}
+#Carousel1
+{
+   position: absolute;
+}
+#PageFooter1_Container
+{
+   width: 970px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_خدمات_الشركة
+{
+   position: absolute;
+   left: 961px;
+   top: 593px;
+   width: 39px;
+   height: 18px;
+   z-index: 33;
+}
+#wb_contact
+{
+   position: absolute;
+   left: 998px;
+   top: 1516px;
+   width: 20px;
+   height: 20px;
+   z-index: 32;
+}
+#wb_JavaScript1
+{
+   display: inline-block;
+   width: 100%;
+   height: 348px;
+   z-index: 24;
+}
+#contact
+{
+   visibility: hidden;
+}
+#progressbar_html
+{
+   display: block;
+   width: 100%;
+   height: 28px;
+   z-index: 15;
+}
+@media only screen and (min-width: 480px) and (max-width: 969px)
+{
+div#container
+{
+   width: 480px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#PageHeader
+{
+   height: 82px;
+   visibility: visible;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PageHeader
+{
+   width: 100%;
+}
+#wb_CssMenu1
+{
+   left: 140%;
+   top: 26%;
+   visibility: hidden;
+   display: none;
+}
+#wb_CssMenu1 li
+{
+}
+#wb_CssMenu1 a
+{
+   color: #FFFFFF;
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   font-family: Hend;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   height: 40px;
+   line-height: 40px;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
+{
+   color: #FFA500;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #222222 solid;
+}
+#wb_CssMenu1.affix
+{
+   margin-left: 436px;
+}
+#wb_Carousel1
+{
+   width: 480px;
+   height: 369px;
+   visibility: visible;
+   display: block;
+}
+#Carousel1 .frame
+{
+   width: 480px;
+   height: 369px;
+}
+#Carousel1 .innerframe
+{
+   width: 480px;
+   height: 0;
+}
+#wb_title1
+{
+   left: 48px;
+   top: 87px;
+   width: 364px;
+   height: 137px;
+   visibility: hidden;
+   display: none;
+}
+#title1
+{
+   width: 364px;
+   height: 137px;
+}
+#title1_text
+{
+   left: 5px;
+   top: 26px;
+   width: 352px;
+   height: 104px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 15px 15px 40px 15px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Hend;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 30px;
+}
+#wb_FontAwesomeIcon1
+{
+   width: 153px;
+   height: 86px;
+   visibility: visible;
+   display: inline-block;
+   color: #23448C;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#FontAwesomeIcon1
+{
+   width: 153px;
+   height: 86px;
+}
+#FontAwesomeIcon1 i
+{
+   line-height: 86px;
+   font-size: 86px;
+   width: 85px;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Hend;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 29px;
+}
+#wb_FontAwesomeIcon2
+{
+   width: 153px;
+   height: 86px;
+   visibility: visible;
+   display: inline-block;
+   color: #23448C;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#FontAwesomeIcon2
+{
+   width: 153px;
+   height: 86px;
+}
+#FontAwesomeIcon2 i
+{
+   line-height: 86px;
+   font-size: 86px;
+   width: 73px;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Hend;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 29px;
+}
+#wb_FontAwesomeIcon3
+{
+   width: 153px;
+   height: 86px;
+   visibility: visible;
+   display: inline-block;
+   color: #23448C;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#FontAwesomeIcon3
+{
+   width: 153px;
+   height: 86px;
+}
+#FontAwesomeIcon3 i
+{
+   line-height: 86px;
+   font-size: 86px;
+   width: 85px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text5
+{
+   font-family: Hend;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 29px;
+}
+#wb_Bookmark1
+{
+   left: 622px;
+   top: 592px;
+   width: 21px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_laygride2
+{
+   left: 601px;
+   top: 796px;
+   width: 21px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_PhotoGallery1
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PhotoGallery1 .thumbnail
+{
+   width: 33.33333333%;
+}
+#PhotoGallery1 .visible-col3
+{
+   display: block;
+}
+#PhotoGallery1 .visible-col1
+{
+   display: none;
+}
+#wb_Bookmark3
+{
+   left: 592px;
+   top: 1009px;
+   width: 21px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   padding: 25px 15px 25px 15px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_Bookmark4
+{
+   left: 597px;
+   top: 1279px;
+   width: 21px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text6
+{
+   font-family: Hend;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: right;
+   line-height: 29px;
+}
+#wb_Text1
+{
+   left: 0%;
+   top: 0%;
+   width: 100%;
+   height: 131%;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #23448C;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 19px;
+   margin: 0px 0px 0px 0px;
+   padding: 7px 0px 0px 0px;
+   text-align: center;
+   line-height: 36px;
+}
+#wb_contact
+{
+   left: 588px;
+   top: 1515px;
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 75px 0px 50px 0px;
+   padding: 0px 0px 0px 0px;
+}
+#wb_JavaScript1
+{
+   height: 348px;
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   left: 0px;
+   top: 40px;
+   width: 480px;
+   height: 30px;
+   visibility: visible;
+   display: inline;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Hend;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+}
+#wb_خدمات_الشركة
+{
+   left: 585px;
+   top: 592px;
+   width: 39px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_عن_الشركة
+{
+   left: 585px;
+   top: 1187px;
+   width: 39px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_اتصل_بنا
+{
+   left: 579px;
+   top: 1572px;
+   width: 39px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_الرئيسية
+{
+   left: 574px;
+   top: 22px;
+   width: 39px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_skills
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_skills
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#skills
+{
+   padding: 25px 15px 25px 15px;
+}
+#skills .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#skills > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#skills > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 15px 0px 15px 0px;
+   padding: 0px 0px 0px 0px;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 0px 0px 25px 0px;
+}
+#LayoutGrid6 > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: center;
+}
+#progressbar_uidesign
+{
+   width: 450px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#progressbar_jquery
+{
+   width: 450px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#progressbar_php
+{
+   width: 450px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#progressbar_html
+{
+   width: 450px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#Label5
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Hend;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/books_bk.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 0px 0px 40px 0px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid5
+{
+   width: 100%;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#Label6
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Hend;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#Label7
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Hend;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#Label8
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Hend;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#PageFooter1
+{
+   top: 3062px;
+   height: 130px;
+   visibility: visible;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #404040;
+   background-image: none;
+}
+#PageFooter1
+{
+   width: 100%;
+}
+#PageFooter1_Container
+{
+   width: 480px;
+}
+}
+@media only screen and (max-width: 479px)
+{
+div#container
+{
+   width: 321px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#PageHeader
+{
+   height: 100px;
+   visibility: visible;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PageHeader
+{
+   width: 100%;
+}
+#wb_CssMenu1
+{
+   left: 108%;
+   top: 5%;
+   visibility: hidden;
+   display: none;
+}
+#wb_CssMenu1 li
+{
+}
+#wb_CssMenu1 a
+{
+   color: #FFFFFF;
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   font-family: Hend;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   height: 40px;
+   line-height: 40px;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
+{
+   color: #FFA500;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #222222 solid;
+}
+#wb_CssMenu1.affix
+{
+   margin-left: 189px;
+}
+#wb_Carousel1
+{
+   width: 321px;
+   height: 300px;
+   visibility: visible;
+   display: block;
+}
+#Carousel1 .frame
+{
+   width: 321px;
+   height: 300px;
+}
+#Carousel1 .innerframe
+{
+   width: 321px;
+   height: 0;
+}
+#wb_title1
+{
+   left: 17px;
+   top: 138px;
+   width: 287px;
+   height: 133px;
+   visibility: hidden;
+   display: none;
+}
+#title1
+{
+   width: 287px;
+   height: 133px;
+}
+#title1_text
+{
+   left: 5px;
+   top: 24px;
+   width: 275px;
+   height: 102px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 15px 15px 40px 15px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 30px;
+}
+#wb_FontAwesomeIcon1
+{
+   width: 131px;
+   height: 86px;
+   visibility: visible;
+   display: inline-block;
+   color: #23448C;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#FontAwesomeIcon1
+{
+   width: 131px;
+   height: 86px;
+}
+#FontAwesomeIcon1 i
+{
+   line-height: 86px;
+   font-size: 86px;
+   width: 85px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #008000;
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 29px;
+}
+#wb_FontAwesomeIcon2
+{
+   width: 131px;
+   height: 86px;
+   visibility: visible;
+   display: inline-block;
+   color: #23448C;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#FontAwesomeIcon2
+{
+   width: 131px;
+   height: 86px;
+}
+#FontAwesomeIcon2 i
+{
+   line-height: 86px;
+   font-size: 86px;
+   width: 73px;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text4
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 29px;
+}
+#wb_FontAwesomeIcon3
+{
+   width: 131px;
+   height: 86px;
+   visibility: visible;
+   display: inline-block;
+   color: #23448C;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#FontAwesomeIcon3
+{
+   width: 131px;
+   height: 86px;
+}
+#FontAwesomeIcon3 i
+{
+   line-height: 86px;
+   font-size: 86px;
+   width: 85px;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text5
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+   line-height: 29px;
+}
+#wb_Bookmark1
+{
+   left: 304px;
+   top: 619px;
+   width: 21px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_laygride2
+{
+   left: 322px;
+   top: 728px;
+   width: 21px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#wb_PhotoGallery1
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PhotoGallery1 .thumbnail
+{
+   width: 100%;
+}
+#PhotoGallery1 .visible-col3
+{
+   display: none;
+}
+#PhotoGallery1 .visible-col1
+{
+   display: block;
+}
+#wb_Bookmark3
+{
+   left: 325px;
+   top: 961px;
+   width: 21px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   padding: 25px 15px 25px 15px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_Bookmark4
+{
+   left: 325px;
+   top: 1294px;
+   width: 21px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text6
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: right;
+   line-height: 29px;
+}
+#wb_Text1
+{
+   left: 2%;
+   top: 5%;
+   width: 94%;
+   height: 67%;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #23448C;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: "Arial";
+   font-weight: 900;
+   font-size: 17px;
+   margin: 0px 0px 0px 0px;
+   padding: 7px 0px 0px 0px;
+   text-align: center;
+   line-height: 32px;
+}
+#wb_contact
+{
+   left: 326px;
+   top: 1403px;
+   width: 20px;
+   height: 20px;
+   visibility: hidden;
+   display: none;
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text7
+{
+   margin: 75px 0px 50px 0px;
+   padding: 0px 0px 0px 0px;
+}
+#wb_JavaScript1
+{
+   height: 261px;
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   left: 1px;
+   top: 36px;
+   width: 320px;
+   height: 60px;
+   visibility: visible;
+   display: inline;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text8
+{
+   font-family: Cairo;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   text-align: center;
+}
+#wb_خدمات_الشركة
+{
+   left: 15px;
+   top: 692px;
+   width: 39px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_عن_الشركة
+{
+   left: 325px;
+   top: 1195px;
+   width: 39px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_اتصل_بنا
+{
+   left: 316px;
+   top: 1581px;
+   width: 39px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_الرئيسية
+{
+   left: 286px;
+   top: 0px;
+   width: 39px;
+   height: 18px;
+   visibility: hidden;
+   display: none;
+}
+#wb_skills
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_skills
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#skills
+{
+   padding: 25px 15px 25px 15px;
+}
+#skills .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#skills > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#skills > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text9
+{
+   margin: 15px 0px 15px 0px;
+   padding: 0px 0px 0px 0px;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 0px 0px 25px 0px;
+}
+#LayoutGrid6 > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid6 > .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: center;
+}
+#progressbar_uidesign
+{
+   width: 291px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#progressbar_jquery
+{
+   width: 291px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#progressbar_php
+{
+   width: 291px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#progressbar_html
+{
+   width: 291px;
+   height: 30px;
+   visibility: visible;
+   display: inline-block;
+}
+#Label5
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Cairo;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/books_bk.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 0px 0px 40px 0px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid5
+{
+   width: 100%;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#Label6
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Cairo;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#Label7
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Cairo;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#Label8
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Cairo;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+}
+#PageFooter1
+{
+   top: 4072px;
+   height: 130px;
+   visibility: visible;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #404040;
+   background-image: none;
+}
+#PageFooter1
+{
+   width: 100%;
+}
+#PageFooter1_Container
+{
+   width: 321px;
+}
+}
+#PageHeader
+{
+   position: fixed !important;
+   float: none !important;
+   -webkit-transition: all 500ms linear;
+   -moz-transition: all 500ms linear;
+   transition: all 500ms linear;   
+}
+#PageHeader.affix
+{
+   background: #23448c;
+   -webkit-transition: all 500ms linear;
+   -moz-transition: all 500ms linear;
+   transition: all 500ms linear;   
+}
+#wb_CssMenu1
+{
+   top: 5px !important;
+   left: auto !important;
+   right: 10px;
+}
+#Carousel1_back:hover, 
+#Carousel1_next:hover
+{
+   background-color: #A59961;
+}
+.progress-label 
+{
+   position: absolute;
+   left: 50%;
+   top: 4px;
+   font-weight: bold;
+   font-size: 14px;
+   font-family: Arial;
+   color: #FFFFFF;
+}
